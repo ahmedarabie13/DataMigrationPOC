@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <include file="db/changelog/changes/db.tenant-schema.sql"/>
+    <include file="db/changelog/changes/v0_0_1_schema_update_additions.sql"/>            <!--    you must comment the addition after ran it -->
+
+
+    <!--    <include file="db/changelog/changes/v0_0_1_data_migrations.sql" />-->
+
+    <!--    <include file="db/changelog/changes/v0_0_1_schema_update_deletions.sql"/>-->
+
+
+
+
+
+
+
+<!--    <changeSet id="1" author="arabie">-->
+<!--        <sqlFile path="from where i suppose to start"/>-->
+<!--    </changeSet>-->
+
+
+</databaseChangeLog>
